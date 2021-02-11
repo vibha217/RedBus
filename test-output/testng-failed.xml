@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.tests.SearchTest">
+        <methods>
+          <include name="Filter"/>
+          <include name="endReport"/>
+          <include name="Search_Bus"/>
+          <include name="closeBrowser"/>
+          <include name="SortSelect"/>
+          <include name="setExtent"/>
+          <include name="QuitDriver"/>
+          <include name="Modify_Search"/>
+        </methods>
+      </class> <!-- com.tests.SearchTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

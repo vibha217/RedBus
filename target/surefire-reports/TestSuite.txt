@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 126.734 s <<< FAILURE! - in TestSuite
+com.tests.UpdateProfile_Test.UpdateProfile  Time elapsed: 27.056 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[contains(text(),'My Profile')]"}
+  (Session info: headless chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIBHAKUMARI', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\VIBHAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55790}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b92d846e7365b309cffcf2ff8dfdb556
+*** Element info: {Using=xpath, value=//li[contains(text(),'My Profile')]}
+	at com.tests.UpdateProfile_Test.UpdateProfile(UpdateProfile_Test.java:98)
+
+com.tests.ManageBooking_Test.Cancel  Time elapsed: 6.9 s  <<< FAILURE!
+java.lang.AssertionError: expected [Cancel Tichgjket - redBus] but found [Cancel Ticket - redBus]
+	at com.tests.ManageBooking_Test.Cancel(ManageBooking_Test.java:52)
+
+com.tests.ManageBooking_Test.Reschedule  Time elapsed: 4.34 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.tests.ManageBooking_Test.Reschedule(ManageBooking_Test.java:84)
+
+com.tests.ManageBooking_Test.Show_MyTicket  Time elapsed: 6.716 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at com.tests.ManageBooking_Test.Show_MyTicket(ManageBooking_Test.java:112)
+
+com.tests.ManageBooking_Test.SmS  Time elapsed: 6.377 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at com.tests.ManageBooking_Test.SmS(ManageBooking_Test.java:140)
+
+com.tests.Invalid_SignIn.invalid_SignIn  Time elapsed: 18.263 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at com.tests.Invalid_SignIn.invalid_SignIn(Invalid_SignIn.java:58)
+

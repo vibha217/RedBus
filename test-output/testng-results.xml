@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-11T18:06:50Z" name="Default suite" finished-at="2021-02-11T18:07:21Z" duration-ms="30603">
+    <groups>
+    </groups>
+    <test started-at="2021-02-11T18:06:50Z" name="Default test" finished-at="2021-02-11T18:07:21Z" duration-ms="30603">
+      <class name="com.tests.SearchTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.tests.SearchTest@62417a16]" started-at="2021-02-11T18:06:50Z" name="setExtent" finished-at="2021-02-11T18:06:51Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method signature="Search_Bus()[pri:1, instance:com.tests.SearchTest@62417a16]" started-at="2021-02-11T18:06:51Z" name="Search_Bus" finished-at="2021-02-11T18:07:21Z" duration-ms="30222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Bus -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.tests.SearchTest@62417a16]" started-at="2021-02-11T18:07:21Z" name="closeBrowser" finished-at="2021-02-11T18:07:21Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search_Bus status=SUCCESS method=SearchTest.Search_Bus()[pri:1, instance:com.tests.SearchTest@62417a16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="QuitDriver()[pri:0, instance:com.tests.SearchTest@62417a16]" started-at="2021-02-11T18:07:21Z" name="QuitDriver" finished-at="2021-02-11T18:07:21Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.tests.SearchTest@62417a16]" started-at="2021-02-11T18:07:21Z" name="endReport" finished-at="2021-02-11T18:07:21Z" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.tests.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

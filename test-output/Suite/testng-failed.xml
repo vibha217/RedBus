@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.tests.Invalid_SignIn">
+        <methods>
+          <include name="endReport"/>
+          <include name="closeBrowser"/>
+          <include name="invalid_SignIn"/>
+          <include name="setExtent"/>
+          <include name="QuitDriver"/>
+        </methods>
+      </class> <!-- com.tests.Invalid_SignIn -->
+      <class name="com.tests.ManageBooking_Test">
+        <methods>
+          <include name="SmS"/>
+          <include name="endReport"/>
+          <include name="Show_MyTicket"/>
+          <include name="closeBrowser"/>
+          <include name="setExtent"/>
+          <include name="QuitDriver"/>
+          <include name="Reschedule"/>
+          <include name="Cancel"/>
+        </methods>
+      </class> <!-- com.tests.ManageBooking_Test -->
+      <class name="com.tests.UpdateProfile_Test">
+        <methods>
+          <include name="endReport"/>
+          <include name="closeBrowser"/>
+          <include name="UpdateProfile"/>
+          <include name="setExtent"/>
+          <include name="QuitDriver"/>
+        </methods>
+      </class> <!-- com.tests.UpdateProfile_Test -->
+      <class name="com.tests.TrackBus_Test">
+        <methods>
+          <include name="endReport"/>
+          <include name="closeBrowser"/>
+          <include name="TrackBus"/>
+          <include name="setExtent"/>
+          <include name="QuitDriver"/>
+        </methods>
+      </class> <!-- com.tests.TrackBus_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

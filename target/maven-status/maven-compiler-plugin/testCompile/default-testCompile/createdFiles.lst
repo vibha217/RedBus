@@ -1,0 +1,15 @@
+com\tests\Career_Test.class
+com\tests\Sites_Test.class
+com\tests\UpdateProfile_Test.class
+com\tests\SearchTest.class
+com\tests\TrackBus_Test.class
+com\Utils\ExcelReader.class
+com\tests\SocialMedia_Test.class
+com\tests\ManageBooking_Test.class
+com\tests\BusHireOperator_Test.class
+com\tests\CallBack_Test.class
+com\tests\SignIn_Test.class
+com\tests\invalidSearch_Test.class
+com\tests\Invalid_SignIn.class
+com\tests\ModifySearchTest.class
+com\tests\TermsAndCondition_Test.class
